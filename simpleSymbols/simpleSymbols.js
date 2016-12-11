@@ -19,7 +19,7 @@ function simpleSymbols (str) {
         if(result.every(function (el) {
             return el === true;
             })) {
-            return true
+            return true;
         }
     }
 
@@ -29,3 +29,4 @@ function simpleSymbols (str) {
 console.log(simpleSymbols("+s+t+r+k+"));
 
 //solved
+
