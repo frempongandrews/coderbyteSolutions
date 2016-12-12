@@ -5,4 +5,4 @@ function alphabeticSoup (str) {
 
 alphabeticSoup("hello");
 
-//resolved
+//solved
