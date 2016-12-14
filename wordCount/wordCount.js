@@ -6,3 +6,5 @@ function wordCount (str) {
 }
 
 wordCount("Never eat shredded wheat or cake");
+
+//solved
