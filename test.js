@@ -3,9 +3,12 @@ function talk () {
 }
 
 var me = {
-    sound: "Hello there!"
+
+    sound: "Hello there from me!"
 };
 
-//call the function talk using me as the context
+me.speak = talk.bind(me);
+var anotherSpeak = me.speak;
 
-talk.bind(me)();
+anotherSpeak();
+
