@@ -28,7 +28,7 @@ function arithGeo(arr) {
 
 
     if (aritArr.allSameValues()) {
-        console.log("Aritmetic");
+        console.log("Arithmetic");
     }
     if (geoArr.allSameValues()) {
         console.log("Geometric");
@@ -42,6 +42,8 @@ function arithGeo(arr) {
 
 arithGeo([2, 4, 6, 8]);
 arithGeo([2, 6, 18, 54]);
+arithGeo([1, 2, 3, 4]);
+arithGeo([1, 5, 9]);
 
 
 //solved
